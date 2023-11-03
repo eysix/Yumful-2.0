@@ -137,7 +137,7 @@ const SingleMeal = () => {
               )}
               <p>
                 <span className="food-data">Ingredients :</span>
-                <ul id="ingredients">
+                <ul className="ingredients">
                   {ingredients.map((item, index) => {
                     return item ? <li key={index}>{measures[index]} {item}</li> : null
                   })}

@@ -349,11 +349,11 @@ Meal
   font-weight: normal;
   line-height: 1.5;;
 }
-#ingredients {
+.ingredients {
   font-weight: normal;
   line-height: 1.9;
 }
-#ingredients > li{
+.ingredients li{
   list-style: disc;
   margin-left: 5rem;
   margin: none;
