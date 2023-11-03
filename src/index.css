@@ -352,10 +352,10 @@ Meal
 .ingredients {
   font-weight: normal;
   line-height: 1.9;
+  margin-left: 5rem;
 }
 .ingredients li{
   list-style: disc;
-  margin-left: 5rem;
   margin: none;
 }
 ol li {
