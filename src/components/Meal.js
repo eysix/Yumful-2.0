@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Meal = ({image, name, id, category, area, tags}) => {
   return (
     <article className="meal">
-      <div className="img-container">
+      <div className="meal-img-container">
         <Link to={`/meal/${id}`} className="btn btn-primary">
           <img src={image} alt={name} />
         </Link>
