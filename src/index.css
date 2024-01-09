@@ -180,6 +180,10 @@ About
   line-height: 2rem;
   font-weight: 400;
   letter-spacing: 2px;
+  text-align: center;
+}
+.about-section a {
+  color: var(--primaryColor);
 }
 /* 
 ====== 
